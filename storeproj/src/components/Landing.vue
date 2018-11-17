@@ -5,8 +5,17 @@
       <a href="#">Hoddies</a>
       <a href="#">Gear</a>
     </div> -->
-    <div class="main-nav">
+    <div class="main">
       <span class="name" >New Arrivals</span>
+    </div>
+    <div class="mens">
+      <span class="mens-span">Mens</span>
+    </div>
+    <div class="womens">
+      <span class="womens-span">Womens</span>
+    </div>
+    <div class="gear">
+      <span class="gear-span">Gear</span>
     </div>
   </div>
 </template>
@@ -44,7 +53,7 @@ export default {
   color: #2c3e50;
 } */
 
-.main-nav{
+.main{
   background-image: url("../assets/Shirts.jpeg");
   height: 60vw;
   border: solid black 2px;
@@ -66,7 +75,11 @@ export default {
   letter-spacing: 10px;
   justify-content: center;
   text-align: center;
-  opacity: 0.65;
+  opacity: 1;
+  margin-top: 20vw;
+  margin-left: 15vw;
+  width: 20vw;
+
 }
 
 
