@@ -1,15 +1,12 @@
 <template lang="html">
   <div class="landing">
-    <div class="side-nav">
+    <!-- <div class="side-nav">
       <a href="#">Shirts</a>
-      <a href="#">Hats</a>
       <a href="#">Hoddies</a>
-      <a href="#">Pants</a>
       <a href="#">Gear</a>
-    </div>
+    </div> -->
     <div class="main-nav">
-      <img id="shirts" src="../assets/Shirts.jpeg" alt="">
-      <span>New Arrivals</span>
+      <span class="name" >New Arrivals</span>
     </div>
   </div>
 </template>
@@ -25,34 +22,52 @@ export default {
 .landing{
   display: flex;
   flex-direction: row;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  padding-top: 6vw;
+  /* margin-left: 5vw;
+  margin-right: 5vw; */
 }
 
-.side-nav{
+/* .side-nav{
   border: solid black 2px;
   width: 25%;
   margin-right: 5%;
   display: flex;
   flex-direction: column;
-}
+  justify-content: center;
+  align-items: flex-start;
+} */
 
-a{
+/* a{
   margin-bottom: 1vw;
   font-size: 24px;
   text-decoration: none;
   color: #2c3e50;
-}
+} */
 
 .main-nav{
+  background-image: url("../assets/Shirts.jpeg");
+  height: 60vw;
   border: solid black 2px;
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  overflow: scroll;
 }
 
 #shirts{
-  width: 60vw;
+  width: 100%;
 }
+
+.name{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  font-size: 36px;
+  letter-spacing: 10px;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.65;
+}
+
 
 </style>
