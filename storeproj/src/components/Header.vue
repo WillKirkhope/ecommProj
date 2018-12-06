@@ -2,9 +2,9 @@
   <div class="nav">
     <h1>Logo</h1>
     <div class="categories">
-    <a href="#">Mens</a>
-    <a href="#">Womens</a>
-    <a href="#">Gear</a>
+    <router-link to="/Mens">Mens</router-link>
+    <router-link to="/Womens">Womens</router-link>
+    <router-link to="/Gear">Gear</router-link>
     </div>
     <div class="icons">
     <img id="search" src="../assets/search.png" alt="">
@@ -15,6 +15,7 @@
 
 <script>
 export default {
+  name: 'Header'
 }
 </script>
 
