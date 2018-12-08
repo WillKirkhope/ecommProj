@@ -1,7 +1,9 @@
 <template lang="html">
-  <div class="mens">
-    <h1>YOOOOO</h1>
-    //cant see dude to sticky header, fix later
+  <div class="mens-home">
+    <div class="mens-main">
+      <span class="mens-span">Mens</span>
+    </div>
+    //cant see due to sticky header, fix later
 
   </div>
 </template>
@@ -18,6 +20,16 @@ export default {
   display: flex;
   flex-direction: column;
   padding-top: 6vw;
+}
+
+.mens-main{
+  background-image: url("../assets/mens-main.jpeg");
+  background-size: cover;
+  height: 60vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
 }
 
 </style>

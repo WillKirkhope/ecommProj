@@ -58,14 +58,6 @@ h1{
   color: #2c3e50;
 }
 
-/* a{
-  font-size: 18px;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  text-decoration: none;
-  color: #2c3e50;
-} */
-
 img{
   width: 2vw;
 }
