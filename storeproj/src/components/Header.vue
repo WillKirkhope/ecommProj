@@ -7,8 +7,9 @@
     <router-link to="/Gear">Gear</router-link>
     </div>
     <div class="icons">
-    <img id="search" src="../assets/search.png" alt="">
-    <img id="cart" src="../assets/cart.svg.png" alt="">
+    <!-- <img id="search" src="../assets/search.png" alt=""> -->
+    <!-- <img id="cart" src="../assets/cart.svg.png" alt="" @click="showCart"> -->
+    <router-link to="/Cart"><img id ="cart" src="../assets/cart.svg.png"></router-link>
     </div>
   </div>
 </template>
@@ -45,13 +46,25 @@ h1{
   margin-left: 5vw;
 }
 
-a{
+.categories{
+  margin-right: 7vw;
+}
+
+.categories a{
   font-size: 18px;
   margin-left: 1vw;
   margin-right: 1vw;
   text-decoration: none;
   color: #2c3e50;
 }
+
+/* a{
+  font-size: 18px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  text-decoration: none;
+  color: #2c3e50;
+} */
 
 img{
   width: 2vw;

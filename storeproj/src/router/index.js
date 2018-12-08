@@ -4,6 +4,7 @@ import Landing from '@/components/Landing'
 import Mens from '@/components/Mens'
 import Womens from '@/components/Womens'
 import Gear from '@/components/Gear'
+import Cart from '@/components/Cart'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/Gear',
       name: 'Gear',
       component: Gear
+    },
+    {
+      path: '/Cart',
+      name: 'Cart',
+      component: Cart
     }
   ]
 })
